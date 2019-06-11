@@ -1,0 +1,14 @@
+{
+  "name": "firebase-fn",
+  "version": "1.0.0",
+  "description": "firebase functions to provide API to apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2",
+  "devDependencies": {
+    "firebase-tools": "^6.11.0"
+  }
+}

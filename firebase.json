@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/booklet/list",
+        "function": "booklets"
+      },
+      {
+        "source": "/record/list",
+        "function": "records"
+      }
+    ]
+  }
+}
